@@ -22,7 +22,7 @@ class ServoMotor
     true
 
 class HatyuneMiku extends ServoMotor
-  @UPPER_ANGLE = 120
+  @UPPER_ANGLE = 100
   @LOWER_ANGLE = 60
   constructor: (pin_name) ->
     super pin_name

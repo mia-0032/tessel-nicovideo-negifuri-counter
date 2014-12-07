@@ -46,13 +46,15 @@
   HatyuneMiku = (function(_super) {
     __extends(HatyuneMiku, _super);
 
-    HatyuneMiku.UPPER_ANGLE = 120;
+    HatyuneMiku.UPPER_ANGLE = 100;
 
     HatyuneMiku.LOWER_ANGLE = 60;
 
     function HatyuneMiku(pin_name) {
       this.doNegifuri = __bind(this.doNegifuri, this);
       HatyuneMiku.__super__.constructor.call(this, pin_name);
+      this.move(HatyuneMiku.LOWER_ANGLE);
+      this.move(HatyuneMiku.UPPER_ANGLE);
       this.move(HatyuneMiku.LOWER_ANGLE);
     }
 
