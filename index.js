@@ -54,8 +54,6 @@
       this.doNegifuri = __bind(this.doNegifuri, this);
       HatyuneMiku.__super__.constructor.call(this, pin_name);
       this.move(HatyuneMiku.LOWER_ANGLE);
-      this.move(HatyuneMiku.UPPER_ANGLE);
-      this.move(HatyuneMiku.LOWER_ANGLE);
     }
 
     HatyuneMiku.prototype.doNegifuri = function(repeat_count) {
