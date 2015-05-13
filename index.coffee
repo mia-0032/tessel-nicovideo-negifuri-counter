@@ -75,7 +75,7 @@ class NicovideoApiParser
     )
 
 api_parser = new NicovideoApiParser
-miku = new HatyuneMiku('G4')
+miku = new HatyuneMiku('G5')
 previous_comment_num = null
 
 emitter.on 'haveParsed', (result) ->
